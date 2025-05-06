@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <style>
-        #chacha{
-            color: red;
-        }
-        #chachi{
-            color: blue;
-        }
-    </style> -->
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-   <p>Lorem ipsum dolor sit amet.</p>
-   <img src="" alt="">
-   <a href="https://www.google.com">Download now</a>
-   <p id="main">Lorem ipsum dolor sit.</p>
-   <p id="chachi">Lorem ipsum dolor sit amet.</p>
-</body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add a new task">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
 
+  <script src="script.js"></script>
+</body>
 </html>
+
+   
